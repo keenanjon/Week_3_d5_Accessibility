@@ -16,6 +16,7 @@
 
 package com.example.jetnews.ui.theme
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
@@ -23,24 +24,26 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
+
 private val LightThemeColors = lightColors(
-    primary = Red700,
-    primaryVariant = Red900,
+    primary = Green700,
+    primaryVariant = Green900,
     onPrimary = Color.White,
-    secondary = Red700,
-    secondaryVariant = Red900,
+    secondary = Green700,
+    secondaryVariant = Green900,
     onSecondary = Color.White,
-    error = Red800
+    error = Green800
 )
 
 private val DarkThemeColors = darkColors(
-    primary = Red300,
-    primaryVariant = Red700,
+    primary = Green300,
+    primaryVariant = Green700,
     onPrimary = Color.Black,
-    secondary = Red300,
+    secondary = Green300,
     onSecondary = Color.Black,
-    error = Red200
+    error = Green200
 )
+
 
 @Composable
 fun JetnewsTheme(
